@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
+import kotlinx.android.synthetic.main.layout_bubble_item.view.*
 
 class OnboardingBubbleItem
 @kotlin.jvm.JvmOverloads

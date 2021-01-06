@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Material Onboarding</string>
+    <string name="first_bubble_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor purus\n</string>
 </resources>
