@@ -3,21 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <Transition
-        app:constraintSetStart="@id/firstTransition"
         app:constraintSetEnd="@id/secondTransition"
-        app:duration="500">
-    </Transition>
+        app:constraintSetStart="@id/firstTransition"
+        app:duration="500" />
 
-    <ConstraintSet
-        android:id="@+id/firstTransition">
+    <ConstraintSet android:id="@+id/firstTransition">
         <Constraint
             android:id="@+id/firstBubble"
             android:layout_width="@dimen/onboarding_bubble_item_size_xlarge"
             android:layout_height="@dimen/onboarding_bubble_item_size_xlarge"
             app:layout_constraintCircle="@+id/centerPlaceholder"
             app:layout_constraintCircleAngle="290"
-            app:layout_constraintCircleRadius="90dp"
-            />
+            app:layout_constraintCircleRadius="90dp" />
 
         <Constraint
             android:id="@+id/secondBubble"
@@ -25,8 +22,7 @@
             android:layout_height="@dimen/onboarding_bubble_item_size_medium"
             app:layout_constraintCircle="@+id/centerPlaceholder"
             app:layout_constraintCircleAngle="120"
-            app:layout_constraintCircleRadius="160dp"
-            />
+            app:layout_constraintCircleRadius="160dp" />
 
         <Constraint
             android:id="@+id/thirdBubble"
@@ -34,20 +30,17 @@
             android:layout_height="@dimen/onboarding_bubble_item_size_small"
             app:layout_constraintCircle="@+id/centerPlaceholder"
             app:layout_constraintCircleAngle="210"
-            app:layout_constraintCircleRadius="240dp"
-            />
+            app:layout_constraintCircleRadius="240dp" />
     </ConstraintSet>
 
-    <ConstraintSet
-        android:id="@+id/secondTransition">
+    <ConstraintSet android:id="@+id/secondTransition">
         <Constraint
             android:id="@+id/secondBubble"
             android:layout_width="@dimen/onboarding_bubble_item_size_xlarge"
             android:layout_height="@dimen/onboarding_bubble_item_size_xlarge"
             app:layout_constraintCircle="@+id/centerPlaceholder"
             app:layout_constraintCircleAngle="120"
-            app:layout_constraintCircleRadius="120dp"
-            />
+            app:layout_constraintCircleRadius="120dp" />
 
 
         <Constraint
@@ -56,8 +49,7 @@
             android:layout_height="@dimen/onboarding_bubble_item_size_large"
             app:layout_constraintCircle="@+id/centerPlaceholder"
             app:layout_constraintCircleAngle="320"
-            app:layout_constraintCircleRadius="190dp"
-            />
+            app:layout_constraintCircleRadius="190dp" />
 
         <Constraint
             android:id="@+id/thirdBubble"
@@ -65,20 +57,17 @@
             android:layout_height="@dimen/onboarding_bubble_item_size_small"
             app:layout_constraintCircle="@+id/centerPlaceholder"
             app:layout_constraintCircleAngle="210"
-            app:layout_constraintCircleRadius="240dp"
-            />
+            app:layout_constraintCircleRadius="240dp" />
     </ConstraintSet>
 
-    <ConstraintSet
-        android:id="@+id/thirdTransition">
+    <ConstraintSet android:id="@+id/thirdTransition">
         <Constraint
             android:id="@+id/firstBubble"
             android:layout_width="@dimen/onboarding_bubble_item_size_large"
             android:layout_height="@dimen/onboarding_bubble_item_size_large"
             app:layout_constraintCircle="@+id/centerPlaceholder"
             app:layout_constraintCircleAngle="320"
-            app:layout_constraintCircleRadius="190dp"
-            />
+            app:layout_constraintCircleRadius="190dp" />
 
         <Constraint
             android:id="@+id/secondBubble"
@@ -86,8 +75,7 @@
             android:layout_height="@dimen/onboarding_bubble_item_size_medium"
             app:layout_constraintCircle="@+id/centerPlaceholder"
             app:layout_constraintCircleAngle="100"
-            app:layout_constraintCircleRadius="120dp"
-            />
+            app:layout_constraintCircleRadius="120dp" />
 
         <Constraint
             android:id="@+id/thirdBubble"
@@ -95,7 +83,6 @@
             android:layout_height="@dimen/onboarding_bubble_item_size_xlarge"
             app:layout_constraintCircle="@+id/centerPlaceholder"
             app:layout_constraintCircleAngle="180"
-            app:layout_constraintCircleRadius="260dp"
-            />
+            app:layout_constraintCircleRadius="260dp" />
     </ConstraintSet>
 </MotionScene>
